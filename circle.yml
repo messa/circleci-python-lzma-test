@@ -1,8 +1,0 @@
-machine:
-  tiemzone: Europe/Prague
-  python:
-    version: 3.5.3
-    
-test:
-  override:
-    - python3 -c 'import lzma'
